@@ -19,7 +19,7 @@ before_install:
 
 install:
 - stack setup
-- stack install pandoc --fast
+# - stack install pandoc --fast
 - stack build --dependencies-only --fast
 
 script:
